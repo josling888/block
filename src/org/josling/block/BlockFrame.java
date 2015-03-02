@@ -97,11 +97,11 @@ public class BlockFrame extends JFrame implements ActionListener,KeyListener,Foc
 			return;
 		}
 		if(e.getActionCommand().equals("作者")){
-			JOptionPane.showMessageDialog(this, "  作者:  josling\\n Q Q:    397082265\\n 邮箱:  jsjGLL@126.com");
+			JOptionPane.showMessageDialog(this, " 作者:  josling\n Q Q:    397082265\n 邮箱:  jsjGLL@126.com");
 			return;
 		}
 		if(e.getActionCommand().equals("操作说明")){
-			JOptionPane.showMessageDialog(this, "左         移：←键\\n右         移：→键\\n变         形：↑键\\n加速落下：↓键\\n直接落下：空格键\\n暂         停：回车键");
+			JOptionPane.showMessageDialog(this, "左         移：←键\n右         移：→键\n变         形：↑键\n加速落下：↓键\n直接落下：空格键\n暂         停：回车键");
 			return;
 		}
 		if(e.getActionCommand().equals("退出")||e.getActionCommand().equals("退出游戏")){
